@@ -1,0 +1,1 @@
+=IFERROR(MID(A2, FIND("->", A2) + 3, LEN(A2)), A2)
